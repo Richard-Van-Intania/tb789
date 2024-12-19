@@ -1,0 +1,160 @@
+  Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
+
+
+lillpu@live.com
+
+JqCyxH3A4R9B5EtTFYDlnMmNdl809IwH
+
+
+dart run build_runner build
+
+dart run build_runner build --delete-conflicting-outputs
+
+//   copyWith
+Container(
+  padding: const EdgeInsets.symmetric(
+    horizontal: 12,
+    vertical: 12,
+  ),
+  color: Theme.of(context).colorScheme.primary,
+  child: Text(
+    'Text with a background color',
+    // ···
+    style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+          color: Theme.of(context).colorScheme.onPrimary,
+        ),
+  ),
+),
+
+ Text(
+                  "hola",
+                  style: Theme.of(context).textTheme.titleMedium!.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+                ),
+
+// apply
+  /// The `displayColor` is applied to [displayLarge], [displayMedium],
+  /// [displaySmall], [headlineLarge], [headlineMedium], and [bodySmall]. The
+  /// `bodyColor` is applied to the remaining text styles.
+
+
+    style: Theme.of(context).textTheme.apply(displayColor: Theme.of(context).colorScheme.primary).displaySmall,
+
+       style: Theme.of(context).textTheme.apply(displayColor: Theme.of(context).colorScheme.primary).titleMedium,
+
+
+Padding: is the inner space of the element to the edge
+Margin: is the space between widgets together
+
+**Padding is Space Around means in the container .
+Margin is Space outside means out side of the container**
+
+Padding is measured in increments of 4dp.
+
+    WidgetsBinding.instance.addPostFrameCallback((Duration timeStamp) {
+      // here
+    });
+
+follow google head is black
+
+
+HookConsumerWidget first
+
+head ใหม่
+
+ศูนย์รวม ซื้อ-ขาย แลกเปลี่ยน ทะเบียนรถสวยทุกประเภท ทั่วไทย
+สมัครฟรี ลงประกาศฟรี ไม่จำกัดจำนวน ตลอดชีพ
+ซื้อและขายในบัญชีเดียว ไม่ผ่านตัวกลาง
+ 
+add const be4 build
+
+more than 1 times!!!!
+
+ 
+
+
+     final String currentUrl = GoRouterState.of(context).uri.toString();
+          print(currentUrl);
+
+
+   leading: FlutterLogo(size: 72.0),
+
+init provider with listenManual
+
+use 
+Navigator.pop(context);
+when not a screen
+
+use 
+context.pop();
+
+when pop screen
+
+
+ป้ายธรรมดา
+
+Thailand car plates marketplace
+
+
+
+
+ตลาดซื้อ-ขาย แลกเปลี่ยน ทะเบียนรถทุกประเภท
+ลงประกาศฟรี ไม่จำกัดจำนวน
+ใช้ง่าย ซื้อ-ขาย ด้วยบัญชีเดียว
+
+แปลดีๆ ให้คนต่างชาติในไทยได้ใช้
+ทำดีๆ ขายได้ราคาสูงๆ 
+
+add plates edit plates
+or not square use real ratio instade
+
+long press menu
+
+
+
+
+add plates
+home applied filter
+
+
+dart run build_runner build
+
+flutter pub upgrade --major-versions
+
+
+open ios/Runner.xcworkspace
+
+
+0xff565e71
+
+Each of the fonts has these design axes, which can be varied in CSS, or in many more modern design apps:
+
+Optical Size (opsz) from 20 to 48 px. The default is 24.
+Weight from 100 (Thin) to 700 (Bold). Regular is 400.
+Grade from -50 to 200. The default is 0 (zero).
+Fill from 0 to 100. The default is 0 (zero).
+
+
+
+
+
+ลงแบบไม่ระบุราคา+ ddeplink+chat สร้าง traffic
+ลงแบบไม่ระบุราคา*  จะทำให้คนเข้า app ตลอด
+
+*legal
+
+your_store_drawer ==== store_details_screen
+
+filter butt only at tab 
+
+applied filter all???
+
+analyzed search text intelligencely
+
+// ค้นหา ร้านค้า
+
+// design new card and list
+
+// new upload button
