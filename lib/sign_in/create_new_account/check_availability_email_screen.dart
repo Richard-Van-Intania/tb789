@@ -4,7 +4,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:material_symbols_icons/material_symbols_icons.dart';
-import '../../initialize.dart';
 import '../../provider/authentication_providers.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
