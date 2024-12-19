@@ -158,3 +158,5 @@ analyzed search text intelligencely
 // design new card and list
 
 // new upload button
+
+// review everything later

@@ -6,7 +6,7 @@ part of 'query_providers.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$queryPatternDetailsExploreHash() => r'c212418c654db12ec911378fc59f1c7c5fc5aa92';
+String _$queryPatternDetailsExploreHash() => r'f3eb315057c9fc387a26c56f0dd0c07e7274d113';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -241,7 +241,7 @@ class _QueryPatternDetailsExploreProviderElement extends AutoDisposeFutureProvid
   int get offset => (origin as QueryPatternDetailsExploreProvider).offset;
 }
 
-String _$addRemoveLikedPlatesHash() => r'744786a3087c7e177743f13435a3091bb1f98d36';
+String _$addRemoveLikedPlatesHash() => r'b4aef644ab11e82fd5380beb0d9c2f76d595bc9e';
 
 /// See also [addRemoveLikedPlates].
 @ProviderFor(addRemoveLikedPlates)
@@ -380,7 +380,7 @@ class _AddRemoveLikedPlatesProviderElement extends AutoDisposeFutureProviderElem
   bool get value => (origin as AddRemoveLikedPlatesProvider).value;
 }
 
-String _$addRemoveSavedPlatesHash() => r'55b838b8dbb661cc1b6e924647d8509e239a0b9c';
+String _$addRemoveSavedPlatesHash() => r'23c9d57de5e63ce3263048d862626300489d3b45';
 
 /// See also [addRemoveSavedPlates].
 @ProviderFor(addRemoveSavedPlates)
@@ -519,7 +519,7 @@ class _AddRemoveSavedPlatesProviderElement extends AutoDisposeFutureProviderElem
   bool get value => (origin as AddRemoveSavedPlatesProvider).value;
 }
 
-String _$addRemoveLikedStoreHash() => r'0fe0451cd502cdb96e1e0a255d5d47c9bc2358ed';
+String _$addRemoveLikedStoreHash() => r'2b9eb5b42b2804da5b65ca2a98bea3c1b89238e7';
 
 /// See also [addRemoveLikedStore].
 @ProviderFor(addRemoveLikedStore)
@@ -658,7 +658,7 @@ class _AddRemoveLikedStoreProviderElement extends AutoDisposeFutureProviderEleme
   bool get value => (origin as AddRemoveLikedStoreProvider).value;
 }
 
-String _$addRemoveSavedStoreHash() => r'c0428dde5d3309549c6451168f92fcf9b0e84336';
+String _$addRemoveSavedStoreHash() => r'2e289425b0fcfdd81adfbb2128fd838f366cbd6e';
 
 /// See also [addRemoveSavedStore].
 @ProviderFor(addRemoveSavedStore)
@@ -797,7 +797,7 @@ class _AddRemoveSavedStoreProviderElement extends AutoDisposeFutureProviderEleme
   bool get value => (origin as AddRemoveSavedStoreProvider).value;
 }
 
-String _$queryPlatesInfoHash() => r'32b10d57b7c3225608f5d56fadbf002408fccaa1';
+String _$queryPlatesInfoHash() => r'6889d086993846eb3287f7537364fb841d82a02a';
 
 /// See also [queryPlatesInfo].
 @ProviderFor(queryPlatesInfo)
@@ -921,7 +921,7 @@ class _QueryPlatesInfoProviderElement extends AutoDisposeFutureProviderElement<U
   int get plates_id => (origin as QueryPlatesInfoProvider).plates_id;
 }
 
-String _$querySuggestionBackNumberHash() => r'2df69a09993e4b1115a50218dd3c20f3a574378d';
+String _$querySuggestionBackNumberHash() => r'6f9b935772b7ec719aaf7a4eef03a254cf4b6063';
 
 /// See also [querySuggestionBackNumber].
 @ProviderFor(querySuggestionBackNumber)
@@ -1075,7 +1075,7 @@ class _QuerySuggestionBackNumberProviderElement extends AutoDisposeFutureProvide
   int get offset => (origin as QuerySuggestionBackNumberProvider).offset;
 }
 
-String _$queryUsersInfoHash() => r'9becbfb5d0aa2ce627cc4dc5de2facfbbec34f79';
+String _$queryUsersInfoHash() => r'd3b60b45d29350e20a12cbb7ae2c04414a8f9615';
 
 /// See also [queryUsersInfo].
 @ProviderFor(queryUsersInfo)
@@ -1199,7 +1199,7 @@ class _QueryUsersInfoProviderElement extends AutoDisposeFutureProviderElement<Un
   int get store_id => (origin as QueryUsersInfoProvider).store_id;
 }
 
-String _$queryUsersPlatesHash() => r'da9635aa7fe7476cb08b7bf81c6c886deb1cf3aa';
+String _$queryUsersPlatesHash() => r'3369220b34229be0463ca5f6e6b49d996703305a';
 
 /// See also [queryUsersPlates].
 @ProviderFor(queryUsersPlates)

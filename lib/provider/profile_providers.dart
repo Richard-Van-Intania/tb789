@@ -2,6 +2,7 @@
 
 import 'dart:convert';
 import 'dart:io';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:http/http.dart' as http;
 import '../initialize.dart';
@@ -11,7 +12,7 @@ import 'authentication_providers.dart';
 part 'profile_providers.g.dart';
 
 @riverpod
-Future<UnwrapResponse<Profile>> fetchProfile(FetchProfileRef ref) async {
+Future<UnwrapResponse<Profile>> fetchProfile(Ref ref) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];

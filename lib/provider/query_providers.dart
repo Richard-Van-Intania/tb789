@@ -2,6 +2,7 @@
 
 import 'dart:convert';
 import 'dart:io';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../constants.dart';
 import '../initialize.dart';
@@ -14,7 +15,7 @@ part 'query_providers.g.dart';
 
 @riverpod
 Future<UnwrapResponse<PlatesGroup>> queryPatternDetailsExplore(
-  QueryPatternDetailsExploreRef ref,
+  Ref ref,
   String path,
   String pattern,
   int plates_type_id,
@@ -157,7 +158,7 @@ class QueryPlatesReacts extends _$QueryPlatesReacts {
 }
 
 @riverpod
-Future<int> addRemoveLikedPlates(AddRemoveLikedPlatesRef ref, int plates_id, bool value) async {
+Future<int> addRemoveLikedPlates(Ref ref, int plates_id, bool value) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];
@@ -199,7 +200,7 @@ Future<int> addRemoveLikedPlates(AddRemoveLikedPlatesRef ref, int plates_id, boo
 }
 
 @riverpod
-Future<int> addRemoveSavedPlates(AddRemoveSavedPlatesRef ref, int plates_id, bool value) async {
+Future<int> addRemoveSavedPlates(Ref ref, int plates_id, bool value) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];
@@ -241,7 +242,7 @@ Future<int> addRemoveSavedPlates(AddRemoveSavedPlatesRef ref, int plates_id, boo
 }
 
 @riverpod
-Future<int> addRemoveLikedStore(AddRemoveLikedStoreRef ref, int store_id, bool value) async {
+Future<int> addRemoveLikedStore(Ref ref, int store_id, bool value) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];
@@ -270,7 +271,7 @@ Future<int> addRemoveLikedStore(AddRemoveLikedStoreRef ref, int store_id, bool v
 }
 
 @riverpod
-Future<int> addRemoveSavedStore(AddRemoveSavedStoreRef ref, int store_id, bool value) async {
+Future<int> addRemoveSavedStore(Ref ref, int store_id, bool value) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];
@@ -299,7 +300,7 @@ Future<int> addRemoveSavedStore(AddRemoveSavedStoreRef ref, int store_id, bool v
 }
 
 @riverpod
-Future<UnwrapResponse<PlatesGroup>> queryPlatesInfo(QueryPlatesInfoRef ref, int plates_id) async {
+Future<UnwrapResponse<PlatesGroup>> queryPlatesInfo(Ref ref, int plates_id) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];
@@ -347,7 +348,7 @@ Future<UnwrapResponse<PlatesGroup>> queryPlatesInfo(QueryPlatesInfoRef ref, int 
 
 @riverpod
 Future<UnwrapResponse<PlatesGroup>> querySuggestionBackNumber(
-  QuerySuggestionBackNumberRef ref,
+  Ref ref,
   int back_number,
   int limit,
   int offset,
@@ -402,7 +403,7 @@ Future<UnwrapResponse<PlatesGroup>> querySuggestionBackNumber(
 }
 
 @riverpod
-Future<UnwrapResponse<UsersGroup>> queryUsersInfo(QueryUsersInfoRef ref, int store_id) async {
+Future<UnwrapResponse<UsersGroup>> queryUsersInfo(Ref ref, int store_id) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final users_id = credential['users_id'];
@@ -437,7 +438,7 @@ Future<UnwrapResponse<UsersGroup>> queryUsersInfo(QueryUsersInfoRef ref, int sto
 
 @riverpod
 Future<UnwrapResponse<PlatesGroup>> queryUsersPlates(
-  QueryUsersPlatesRef ref,
+  Ref ref,
   String path,
   int store_id,
   int limit,

@@ -6,7 +6,7 @@ part of 'authentication_providers.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$autoRenewTokenHash() => r'4c02a113d3a73025b088285b95b27a30fb2215f1';
+String _$autoRenewTokenHash() => r'a466a10fef3a4526a9eba059a1b8a5c99b8f84d6';
 
 /// See also [autoRenewToken].
 @ProviderFor(autoRenewToken)

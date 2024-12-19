@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -17,7 +18,7 @@ import 'providers.dart';
 part 'add_plates_providers.g.dart';
 
 @Riverpod(keepAlive: true)
-Future<ArraySpecialFront> fetchSpecialFront(FetchSpecialFrontRef ref) async {
+Future<ArraySpecialFront> fetchSpecialFront(Ref ref) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   if (access_token != null) {
@@ -86,7 +87,7 @@ class AddPlatesPhoto extends _$AddPlatesPhoto {
 
 @riverpod
 Future<int> addNewPlates(
-  AddNewPlatesRef ref,
+  Ref ref,
   String front_text,
   int total,
   int front_number,

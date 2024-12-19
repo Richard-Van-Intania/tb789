@@ -2,6 +2,7 @@
 
 import 'dart:convert';
 import 'dart:io';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:http/http.dart' as http;
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../initialize.dart';
@@ -437,7 +438,7 @@ class AutoSignIn extends _$AutoSignIn {
 }
 
 @Riverpod(keepAlive: true)
-Future<int> autoRenewToken(AutoRenewTokenRef ref) async {
+Future<int> autoRenewToken(Ref ref) async {
   final credential = await ref.read(credentialProvider.future);
   final access_token = credential['access_token'];
   final refresh_token = credential['refresh_token'];

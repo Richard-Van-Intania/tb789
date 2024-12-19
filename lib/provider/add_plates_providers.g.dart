@@ -6,7 +6,7 @@ part of 'add_plates_providers.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$fetchSpecialFrontHash() => r'80409112b38c9577c58f3fff150a55f87ed890c8';
+String _$fetchSpecialFrontHash() => r'7da20f08452acee2bbd52bffc3774caba8cd30cd';
 
 /// See also [fetchSpecialFront].
 @ProviderFor(fetchSpecialFront)
@@ -21,7 +21,7 @@ final fetchSpecialFrontProvider = FutureProvider<ArraySpecialFront>.internal(
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef FetchSpecialFrontRef = FutureProviderRef<ArraySpecialFront>;
-String _$addNewPlatesHash() => r'7621e02d7139b2d71f599f6a573864f121aeed17';
+String _$addNewPlatesHash() => r'9084618d2c4a4f7d670abacc90f53bcaac605634';
 
 /// Copied from Dart SDK
 class _SystemHash {
